@@ -23,8 +23,12 @@
         "backgroundColor": "#ffffff"
       }
     },
+    "scheme": "dhobi",
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "plugins": [
+      "expo-router"
+    ]
   }
 }
