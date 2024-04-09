@@ -14,9 +14,9 @@ const index = () => {
           }}>
           <View>
             <Image
-              style={{ width: 200, height: 50, resizeMode: "cover" }}
+              style={{ width: 200, height: 50, resizeMode: "cover",borderRadius:30 }}
               source={{
-                uri: "https://laundrymate.in/assets/images/shared/branding/Logo.webp",
+                uri: "https://mir-s3-cdn-cf.behance.net/projects/404/0faab853092491.Y3JvcCw5NzMsNzYyLDE0LDEyMA.jpg",
               }}
             />
             
@@ -60,7 +60,7 @@ const index = () => {
       </View>
       <View   style={{
           padding: 10,
-          backgroundColor: "white",
+          backgroundColor: "#f0f0f0",
           width: 340,
           
           marginLeft: "auto",
