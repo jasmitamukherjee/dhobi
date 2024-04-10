@@ -116,8 +116,11 @@ const index = () => {
         flexDirection: "row",
         alignItems: "center",
         gap: 10,
+        marginLeft:0,
+        width:50
+        
       }} >
-        <View style={{ backgroundColor: "white", padding: 12, borderRadius: 10 }}>
+        <View style={{ backgroundColor: "white", padding: 12, borderRadius: 10,width:173 }}>
           <View style={{ flexDirection: "row", alignItems: "center", gap: 10 }}>
             <View>
 
@@ -150,9 +153,9 @@ const index = () => {
           paddingVertical: 10,
           borderRadius: 10,
           marginRight: 20,
-          marginLeft: 30
+          marginLeft: 0
         }}>
-          <View style={{ flexDirection: "row", alignItems: "center", gap: 8 }}>
+          <View style={{ flexDirection: "row", alignItems: "center", gap: 8 ,width:180}}>
             <Ionicons name="basket-outline" size={24} color="#034694" />
             <View>
               <Text style={{ color: "#2f2f2f", fontSize: 15, fontWeight: "bold" }}>Place your{" "}<Text style={{ color: "#034694", fontSize: 15, fontWeight: "bold" }}>Order</Text></Text>
@@ -179,6 +182,7 @@ const index = () => {
           flexDirection: "row",
           alignItems: "center",
           gap: 10,
+          marginLeft:0
         }}>
         <View>
           <View  style={{
@@ -206,6 +210,7 @@ const index = () => {
           flexDirection: "row",
           alignItems: "center",
           gap: 10,
+          marginLeft:0
         }}>
         <View>
           <View  style={{
